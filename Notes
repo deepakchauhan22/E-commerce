@@ -1,0 +1,45 @@
+provider connected react and redux
+we include the jsx inside provider tag
+
+
+store holds whole state tree of your application
+
+connect connect our store to compoents
+
+
+
+
+create file store.js 
+
+Creating two folders:
+1.1 Components
+2. Redux
+
+Inside redux create 3 folders;
+
+actions
+reducers
+constant
+
+
+first we create actions  folder :
+example: productActions.js
+actiontypes.js 
+
+
+then we create Reducers folder:
+
+inside this we create:
+index.js folder (here we combine all reducers)
+productReducer,js here we make reducers giving iniral state and action
+then write switch cases inside them for diffrent action types
+
+then we create store file
+import reducrs and pss inital state and reducers
+
+then we add redux to react using provider
+
+into index.js or app.js
+
+
+
